@@ -16,3 +16,13 @@ console.log('Golden hour:');
 console.log(`sunrise = ${sun.golden.sunrise}`);
 console.log(`sunset = ${sun.golden.sunset}`);
 ```
+
+Example output:
+
+```
+sunrise = Tue Mar 30 2021 07:38:01 GMT+0200 (GMT+02:00)
+sunset = Tue Mar 30 2021 20:13:27 GMT+0200 (GMT+02:00)
+Golden hour:
+sunrise = from Tue Mar 30 2021 07:08:01 GMT+0200 (GMT+02:00) to Tue Mar 30 2021 08:08:01 GMT+0200 (GMT+02:00)
+sunset = from Tue Mar 30 2021 19:43:27 GMT+0200 (GMT+02:00) to Tue Mar 30 2021 20:43:27 GMT+0200 (GMT+02:00)
+```
